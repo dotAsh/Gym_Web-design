@@ -1,0 +1,546 @@
+@media (min-width: 1200px) {
+    .class_schedule ul li {
+        width: 19.57%;
+    }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .class_schedule ul li {
+        width: 19.58%;
+    }
+
+    .exception02 h2::before {
+        width: 220px;
+        left: 640px;
+    }
+
+    .exception02 h2::after {
+        width: 260px;
+        right: 590px;
+    }
+
+    .exception02 p::after {
+        width: 180px;
+        right: 670px;
+    }
+
+    .exception02 p::before {
+        width: 160px;
+        left: 698px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .class_schedule ul li {
+        width: 19.4%;
+    }
+
+    .about_text p {
+        padding-bottom: 50px;
+    }
+
+    .membership_info h2 {
+        padding: 15px 0;
+    }
+
+    .membership_info ul li {
+        padding: 5px 0;
+    }
+
+    .membership_info h3 {
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    .membership_info a {
+        font-size: 14px;
+    }
+
+    .exception02 h2::before {
+        width: 102px;
+        left: 518px;
+    }
+
+    .exception02 h2::after {
+        width: 138px;
+        right: 472px;
+    }
+
+    .exception02 p::after {
+        width: 60px;
+        right: 550px;
+    }
+
+    .exception02 p::before {
+        width: 42px;
+        left: 578px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /************menu part starts *************/
+    .main_menu {
+        top: 0px;
+        background: rgba(226, 62, 56, 0.8);
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        padding: 0px 22px;
+    }
+
+    .main_menu button i {
+        color: #e2d1d1;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu .navbar-nav {
+        background: rgb(226, 62, 56);
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.29);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+        padding: 2px 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::after {
+        display: none;
+
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        line-height: 45px;
+    }
+    .menu_fix .navbar-nav .nav-item .nav-link{
+        line-height: 30px;
+        font-size: 12px;
+    }
+ 
+    /*************menu part ends***************/
+
+
+    /**************banner part starts *****************/
+    
+
+    #banner_part .banner_item {
+        background-size: cover !important;
+        padding: 140px 0 80px;
+        
+    }
+
+
+    .exception02 h2::before {
+        display: none;
+    }
+
+    .exception02 h2::after {
+        display: none;
+    }
+
+    .exception02 h1::before {
+        display: none;
+    }
+
+    .exception02 h1::after {
+        display: none;
+    }
+
+    .exception02 p::before {
+        display: none;
+    }
+
+    .exception02 p::after {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 22px;
+    }
+
+    .banner_text h1 {
+        font-size: 36px;
+    }
+
+    .banner_text a {
+        font-size: 12px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .banner_slider .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .banner_text {
+        text-align: center;
+    }
+
+    /****************************banner part ends ********************/
+
+
+    /************about part starts ********************/
+    #about_part {
+        padding: 25px 0;
+    }
+
+    .about_text p {
+
+        line-height: 22px;
+        padding-bottom: 24px;
+    }
+
+    /***********************about part ends**************************/
+
+
+    /************gallery part starts ********************/
+    .gallery_img {
+        margin-bottom: 20px;
+    }
+
+    .gallery_banner {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .overlay02 {
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    #gallery_part {
+        padding-bottom: 40px;
+    }
+
+    /***********************gallery part ends**************************/
+
+
+
+
+
+
+    /***********************counter part starts **********************/
+
+    .counter_text p {
+        font-size: 15px;
+    }
+
+    .counter_text h3 {
+        font-size: 23px;
+    }
+
+    /***************************counter part ends********************/
+
+    /***********************membership part starts **********************/
+    .membership_info #m_1 {
+        font-size: 40px;
+    }
+
+    .membership_info h2 {
+        font-size: 22px;
+    }
+
+    /***************************membership part ends********************/
+
+    /***********************testimonial part starts **********************/
+
+    #testimonial {
+        padding-bottom: 34px;
+    }
+
+    /***************************testimonial part ends********************/
+
+    /***********************class part starts **********************/
+    #class_part {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .class_menu li {
+        width: 33.33%;
+        border-bottom: 1px solid #e23e38;
+    }
+
+    .class_schedule ul li {
+        width: 47%;
+        padding: 20px 0;
+
+    }
+
+    .class_schedule ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    /***************************class part ends********************/
+    #unknown_part {
+        padding-bottom: 50px;
+    }
+
+    /***********************btp part starts **********************/
+    .btp {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    /***************************btp part ends********************/
+
+    /***********************footer part starts **********************/
+    .footer_left ul li {
+        font-size: 10px;
+
+    }
+
+    /***************************footer part ends********************/
+}
+
+
+
+@media (max-width: 575px) {
+
+
+    /************menu part starts *************/
+    .main_menu {
+        top: 0px;
+        background: rgba(226, 62, 56, 0.8);
+
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        padding: 0px 22px;
+    }
+
+    .main_menu button i {
+        color: #e2d1d1;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu .navbar-nav {
+        background: rgb(226, 62, 56);
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.29);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+        padding: 2px 0;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link::after {
+        display: none;
+
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        line-height: 45px;
+    }
+   .menu_fix .navbar-nav .nav-item .nav-link{
+        line-height: 10px;
+        font-size: 6px;
+    }
+
+    /*************menu part ends***************/
+
+
+    /**************banner part starts *****************/
+    #banner_part .banner_item {
+        background-size: cover !important;
+        padding: 140px 0 80px;
+    }
+
+    .exception02 h2::before {
+        display: none;
+    }
+
+    .exception02 h2::after {
+        display: none;
+    }
+
+    .exception02 h1::before {
+        display: none;
+    }
+
+    .exception02 h1::after {
+        display: none;
+    }
+
+    .exception02 p::before {
+        display: none;
+    }
+
+    .exception02 p::after {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 22px;
+    }
+
+    .banner_text h1 {
+        font-size: 36px;
+    }
+
+    .banner_text a {
+        font-size: 12px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .banner_slider .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .banner_text {
+        text-align: center;
+    }
+
+    /****************************banner part ends ********************/
+
+
+    /************about part starts ********************/
+    #about_part {
+        padding: 25px 0;
+    }
+
+    .about_text p {
+
+        line-height: 22px;
+        padding-bottom: 24px;
+    }
+
+    /***********************about part ends**************************/
+
+
+    /************gallery part starts ********************/
+    .gallery_img {
+        margin-bottom: 20px;
+    }
+
+    .gallery_banner {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .overlay02 {
+        left: 15px;
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    #gallery_part {
+        padding-bottom: 40px;
+    }
+
+    /***********************gallery part ends**************************/
+
+
+
+    /***********************team part starts **********************/
+
+    .team_text p,
+    .team_overlay {
+        opacity: 1;
+    }
+
+    .team_member:hover {
+        transform: translateY(0);
+    }
+
+
+    /***************************team part ends********************/
+
+
+    /***********************counter part starts **********************/
+
+    .counter_text p {
+        font-size: 15px;
+    }
+
+    .counter_text h3 {
+        font-size: 23px;
+    }
+
+    /***************************counter part ends********************/
+
+    /***********************membership part starts **********************/
+    .membership_info #m_1 {
+        font-size: 40px;
+    }
+
+    .membership_info h2 {
+        font-size: 22px;
+    }
+
+    /***************************membership part ends********************/
+
+    /***********************testimonial part starts **********************/
+
+    #testimonial {
+        padding-bottom: 34px;
+    }
+
+    /***************************testimonial part ends********************/
+
+    /***********************class part starts **********************/
+    #class_part {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .class_menu li {
+        width: 33.33%;
+        border-bottom: 1px solid #e23e38;
+    }
+
+    .class_schedule ul li {
+        width: 47%;
+        padding: 20px 0;
+
+    }
+
+    .class_schedule ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    /***************************class part ends********************/
+    #unknown_part {
+        padding-bottom: 50px;
+    }
+
+    /***********************btp part starts **********************/
+    .btp {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    /***************************btp part ends********************/
+
+    /***********************footer part starts **********************/
+    .footer_left ul li {
+        font-size: 10px;
+
+    }
+
+    /***************************footer part ends********************/
+
+}
